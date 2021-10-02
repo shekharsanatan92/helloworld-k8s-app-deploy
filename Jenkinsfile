@@ -26,7 +26,7 @@ pipeline {
 				deleteDir()
 				checkout scm
 				script {
-					sh " chmod 777 ./helm-deploy.sh"
+					sh " chmod 755 ./helm-deploy.sh"
 					sh " ls -la"
 					sh " ./helm-deploy.sh"
 				}
