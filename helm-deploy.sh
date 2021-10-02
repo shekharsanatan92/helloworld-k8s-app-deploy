@@ -2,7 +2,7 @@
 
 set -euo pipefail
 
-aws eks update-kubeconfig --name "agora-eks-cluster" --region us-east-1
+aws eks update-kubeconfig --name "eks-cluster-dev" --region us-east-1
 helm upgrade \
 --install \
 --wait \
