@@ -6,7 +6,7 @@ Tech Stack: PHP + EKS + Helm + Jenkins
 
 ##########################################
 
-This project uses CircleCI pipeline to deploy Hello World PHP application onto EKS using Helm
+This project uses Jenkins pipeline to deploy Hello World PHP application onto EKS using Helm
 
 ## Setup:
 Clone this repository and set secrets in the Jenkins context. The project uses 4 secrets
